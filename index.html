@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    body {
+      background-color: #212121;
+      color: #fff;
+      display: flex;
+      height: 97vh;
+      justify-content: center;
+      align-items: center;
+    }
+    .container {
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+      letter-spacing: 10px;
+      word-spacing: 5px;
+    }
+    h3 {
+      font-size: 2rem;
+      letter-spacing: 5px;
+    }
+    .clock {
+      background-color: #f96630;
+      border-radius: 25px;
+      font-size: 4rem;
+      padding: 20px 30px;
+      text-align: center;
+      border: 3px solid #fff;
+    }
+    .clock:hover {
+      background-color: #212121;
+      border: 3px solid #f96630;
+    }
+  </style>
+  <body>
+    <div class="container">
+      <h3>Your Local Time IST</h3>
+      <div class="clock"></div>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
